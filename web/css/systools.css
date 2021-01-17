@@ -1,0 +1,36 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1260px) {
+  .container {
+    width: 1230px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+[class*="col-"]{
+    padding: 2px;
+}
